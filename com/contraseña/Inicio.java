@@ -2,6 +2,8 @@ package com.contraseña;
 
 import java.util.Scanner;
 
+import com.holaMundo.HolaMundo;
+
 public class Inicio {
 
 	/**
@@ -75,9 +77,17 @@ public class Inicio {
 		String txtSeguro	= "";	// texto de "seguro" o "debil"
 		
 		Passwords pass;				// instanciamos el objeto pass
+		int sino=0;
 		
+		HolaMundo holamundo = new HolaMundo();
 		
 		Scanner entradaEscaner = new Scanner (System.in); //Creación de un objeto Scanner para entrada por teclado
+		
+		System.out.println("Quieres ver el hola mundo (1 si - 0 no)");
+		sino = entradaEscaner.nextInt();
+		if (sino == 1) {
+			holamundo.holaMundo();
+		}
 		
 		// pedimos los datos por teclado
 		System.out.println("Introduzca cantidad de Passwords que desea generar:");
