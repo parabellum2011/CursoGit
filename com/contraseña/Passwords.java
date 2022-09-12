@@ -103,6 +103,7 @@ public class Passwords {
 	 * controla si la pass generada es segura o debil
 	 * @return evaluacionPass
 	 */
+	
 	public boolean evaluaPass(String pass) {
 		
 		// segura si contraseña > +5 numeros && +1 minusculas && +2 mayusculas

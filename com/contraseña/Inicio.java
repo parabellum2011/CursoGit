@@ -76,6 +76,7 @@ public class Inicio {
 		
 		Passwords pass;				// instanciamos el objeto pass
 		
+		
 		Scanner entradaEscaner = new Scanner (System.in); //Creación de un objeto Scanner para entrada por teclado
 		
 		// pedimos los datos por teclado
